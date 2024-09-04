@@ -26,7 +26,10 @@ if (!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] !== 'SIM') {
     ?>
     <div class="container">
         <h1>Bem-vindo à sua conta!</h1>
+
         
+        <a class="logoffgg" href="logoff.php">uuuuuuuuuuu texto sombrio</a>
+
     </div>
     <?php
         include 'rodape.html'; 

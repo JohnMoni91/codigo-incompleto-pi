@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/corujinha.png"/>
-    
+
 <?php
 include 'styleCabelho.php';
 ?>
@@ -20,7 +20,7 @@ include 'styleCabelho.php';
     ?>
 <br>
     <div id="imagem2">
-        <a href='home.php'> <i class="fa-solid fa-arrow-left-long fa-2xl" style='margin-left:20px; font-size:20px'> voltar </i> </a>
+        <a href='index.php'> <i class="fa-solid fa-arrow-left-long fa-2xl" style='margin-left:20px; font-size:20px'> voltar </i> </a>
     </div>
 
     <div class="container">
