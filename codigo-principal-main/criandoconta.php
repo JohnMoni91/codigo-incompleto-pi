@@ -49,7 +49,7 @@ if ($stmt = $conn->prepare("SELECT COUNT(*) FROM login_clientes WHERE email = ?"
 if ($stmt = $conn->prepare("INSERT INTO login_clientes (nome, email, senha) VALUES (?, ?, ?)")) {
     $stmt->bind_param("sss", $nome, $email, $senha_hash);
     if ($stmt->execute()) {
-        header('Location: index.php');
+        header('Location: login.php');
         exit();
     } else {
         die("Erro ao inserir usuário: " . $stmt->error);

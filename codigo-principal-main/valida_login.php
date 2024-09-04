@@ -30,9 +30,9 @@ if ($stmt = $conn->prepare("SELECT senha FROM login_clientes WHERE email = ?")) 
     // Verifica se a senha é válida
     if (password_verify($senha, $senha_cadastrada)) {
         $_SESSION['autenticado'] = 'SIM';
-        header('Location: home.php');
+        header('Location: index.php');
     } else {
-        header('Location: index.php?login=erro');
+        header('Location: login.php?login=erro');
     }
 } else {
     die("Erro na preparação da declaração: " . $conn->error);
