@@ -71,7 +71,7 @@ include 'cabecalho.php';
                 <div id='criar'> 
                     Ja possui uma conta?
                     <br>
-                    <a href='index.php' id='login'> Entre agora! </a>
+                    <a href='login.php' id='login'> Entre agora! </a>
                 </div>
             </div>
         </div>
